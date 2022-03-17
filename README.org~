@@ -1,0 +1,24 @@
+#+startup: overview
+#+title: Julia
+
+* Install di Ubuntu
+
+:    $ sudo apt install julia
+
+*Referensi*
+
+- [[https://julialang.org/downloads/platform/][julialang.org]]
+- [[https://docs.julialang.org/en/v1/manual/getting-started/][docs.julialang.org]]
+
+* Add to Jupyter Notebook
+
+#+BEGIN_EXAMPLE
+    $ julia
+    $ using Pkg
+    $ Pkg.add("IJulia")
+    $ jupyter-notebook
+#+END_EXAMPLE
+
+*Referensi*
+
+- [[https://datatofish.com/add-julia-to-jupyter/][datatofish.com]]

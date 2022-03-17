@@ -1,0 +1,35 @@
+#+startup: overview
+#+title: Julia
+
+* Install di Ubuntu
+
+:    $ sudo apt install julia
+
+*Referensi*
+
+- [[https://julialang.org/downloads/platform/][julialang.org]]
+- [[https://docs.julialang.org/en/v1/manual/getting-started/][docs.julialang.org]]
+
+* Add to Jupyter Notebook
+
+#+BEGIN_EXAMPLE
+    $ julia
+    $ using Pkg
+    $ Pkg.add("IJulia")
+    $ jupyter-notebook
+#+END_EXAMPLE
+
+*Referensi*
+
+- [[https://datatofish.com/add-julia-to-jupyter/][datatofish.com]]
+
+* Referensi
+
+  [[https://ferrolho.github.io/blog/2019-01-26/how-to-install-julia-on-ubuntu][How to install julia on ubuntu]]
+
+  [[https://stackoverflow.com/questions/44914176/how-to-remove-previous-version-from-jupyter/45211705][Remove previous version from Jupyter]]
+
+  [[https://datatofish.com/add-julia-to-jupyter/][Add Julia to Jupyter Notebook]]
+
+  [[https://stackoverflow.com/questions/65151297/how-to-add-latest-julia-version-to-jupyter-notebook][Add latest Julia version to Jupyter Notebook]]
+
