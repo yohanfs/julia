@@ -19,6 +19,14 @@
     $ jupyter-notebook
 #+END_EXAMPLE
 
+* Update Julia
+
+: versioninfo()
+: using Pkg
+: Pkg.add("UpdateJulia")
+: using UpdateJulia
+: update_julia()
+
 *Referensi*
 
 - [[https://datatofish.com/add-julia-to-jupyter/][datatofish.com]]
@@ -32,4 +40,6 @@
   [[https://datatofish.com/add-julia-to-jupyter/][Add Julia to Jupyter Notebook]]
 
   [[https://stackoverflow.com/questions/65151297/how-to-add-latest-julia-version-to-jupyter-notebook][Add latest Julia version to Jupyter Notebook]]
+
+[[https://www.educative.io/answers/how-to-upgrade-julia-to-a-new-release][Update Julia]]
 
